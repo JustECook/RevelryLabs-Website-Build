@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION SECTION */
+
+.navigation-content {
+    background: rgb(2, 96, 154);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo-wrap {
+    padding-left: 0.5em;
+    max-width: 100%;
+}
+
+.logo-nav-img {
+    max-width: 200px;
+}
+
+.nav-a-wrap {
+    padding-right: 0.5em;
+}
+
+.nav-a-wrap a {
+    margin-right: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+}
+
+.nav-a-wrap a:hover {
+    color: rgb(12, 241, 12);
+    background: rgb(10, 102, 160);
+}
+
+
+/* TITLE SECTION */
+
+.title-content {
+    background:rgb(2, 96, 154);
+    padding: 1em;
+}
+
+.title-text-wrap {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+.title-text-wrap p {
+    color: white;
+    margin: 0em;
+}
+
+/* HELP SECTION */
+
+.help-content {
+    background:rgb(12, 241, 12);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-text-wrap {
+    text-align: center;
+    width: 50%;
+}
+
+.help-text-wrap p {
+    color:rgb(2, 96, 154);
+    padding-bottom: 0.5em;
+    margin: 0em;
+}
+
+.help-button-wrap {
+    margin-top: 1.5em;
+}
+
+.help-button-wrap a {
+    color: white;
+    background:rgb(2, 96, 154);
+    padding: 1em;
+}
+
+/* TEAM CONTENT */
+
+.team-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.team-text-wrap p{
+    margin: 0em;
+}
+
+.team-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
