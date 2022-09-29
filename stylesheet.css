@@ -6,7 +6,7 @@ body {
 /* NAVIGATION SECTION */
 
 .navigation-content {
-    background: rgb(2, 96, 154);
+    background: rgb(1, 57, 93);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,14 +34,14 @@ body {
 
 .nav-a-wrap a:hover {
     color: rgb(12, 241, 12);
-    background: rgb(10, 102, 160);
+    background: rgb(1, 72, 116);
 }
 
 
 /* TITLE SECTION */
 
 .title-content {
-    background:rgb(2, 96, 154);
+    background:rgb(1, 57, 93);
     padding: 1em;
 }
 
@@ -60,7 +60,7 @@ body {
 /* HELP SECTION */
 
 .help-content {
-    background:rgb(12, 241, 12);
+    background:rgb(30, 179, 154);
     padding-top: 3em;
     padding-bottom: 3em;
     display: flex;
@@ -74,7 +74,6 @@ body {
 }
 
 .help-text-wrap p {
-    color:rgb(2, 96, 154);
     padding-bottom: 0.5em;
     margin: 0em;
 }
@@ -119,6 +118,10 @@ body {
 
 /* SKILLS CONTENT */
 
+.skills-content {
+    padding-bottom: 2em;
+}
+
 .skills-title-wrap {
     display: flex;
     justify-content: center;
@@ -127,13 +130,23 @@ body {
 
 .development-design-wrap {
     display: flex;
+    justify-content: center;
     padding: 1em;
+}
+
+.development-design-text-wrap {
+    max-width: 45%; 
+}
+
+.development-design-text-wrap p {
+    line-height: 1.5em;
 }
 
 /* INDUSTRIES CONTENT */
 .industries-content {
     display: flex;
     flex-direction: column;
+    padding-top: 2em;
 }
 
 
@@ -149,12 +162,17 @@ body {
     justify-content: center;
 }
 
+.industries-text-wrap p {
+    margin: 0.25em;
+}
+
 .industries-list-wrap {
     display: grid;
-    grid-template-columns: 10em 10em 10em;
+    grid-template-columns: 15em 15em 15em;
     grid-template-rows: 1em 1em 1em;
     align-items: center;
     gap: 2em;
+    margin-top: 4em;
 }
 
 .industries-list-wrap p {
