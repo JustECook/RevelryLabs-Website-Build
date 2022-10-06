@@ -179,5 +179,28 @@ body {
     background:rgb(224, 222, 222);
     border-radius: 5px;
     padding: 0.5em;
-    
+}
+
+/* FOOTER CONTENT */
+.footer-content {
+    margin-top: 4em;
+    background: rgb(1, 57, 93);
+}
+
+.footer-logo-wrap {
+    padding-left: 3em;
+}
+
+.footer-logo-wrap img {
+    max-width: 15%;
+}
+
+.footer-anchors-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-anchor-wrap {
+    display: flex;
+    flex-direction: column;
 }
