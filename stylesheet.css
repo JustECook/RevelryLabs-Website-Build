@@ -42,7 +42,7 @@ body {
 
 .title-content {
     background:rgb(1, 57, 93);
-    padding: 1em;
+    padding: 7em 3em;
 }
 
 .title-text-wrap {
@@ -54,7 +54,7 @@ body {
 
 .title-text-wrap p {
     color: white;
-    margin: 0em;
+    margin: 0.2em;
 }
 
 /* HELP SECTION */
@@ -62,7 +62,7 @@ body {
 .help-content {
     background:rgb(30, 179, 154);
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,12 +70,18 @@ body {
 
 .help-text-wrap {
     text-align: center;
-    width: 50%;
+    width: 45%;
+}
+
+.help-text-wrap h2 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
 }
 
 .help-text-wrap p {
     padding-bottom: 0.5em;
     margin: 0em;
+    line-height: 2em;
 }
 
 .help-button-wrap {
@@ -84,8 +90,9 @@ body {
 
 .help-button-wrap a {
     color: white;
-    background:rgb(2, 96, 154);
+    background:rgb(1, 57, 93);
     padding: 1em;
+    border-radius: 5px;
 }
 
 /* TEAM CONTENT */
@@ -203,4 +210,38 @@ body {
 .footer-anchor-wrap {
     display: flex;
     flex-direction: column;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px rgba(138, 138, 138, 0.2) solid;
+}
+
+.footer-anchor-wrap a {
+    color:rgb(30, 179, 154);
+    margin: 0.5em;
+}
+
+.footer-anchor-wrap a:hover {
+    color:rgb(12, 241, 12);
+}
+
+.footer-text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text-wrap p {
+    color: white;
+}
+
+.footer-text-wrap a {
+    color:rgb(30, 179, 154);
+}
+
+.footer-text-wrap a:hover {
+    color: rgb(12, 241, 12);
+}
+
+.footer-text-wrap img {
+    max-width: 15%;
 }
