@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Heebo', sans-serif;
 }
 
 /* NAVIGATION SECTION */
@@ -30,6 +31,7 @@ body {
     color: white;
     font-weight: bold;
     padding: 1em;
+    text-decoration: underline transparent;
 }
 
 .nav-a-wrap a:hover {
@@ -93,6 +95,7 @@ body {
     background:rgb(1, 57, 93);
     padding: 1em;
     border-radius: 5px;
+    text-decoration: underline transparent;
 }
 
 /* TEAM CONTENT */
@@ -191,6 +194,7 @@ body {
 /* FOOTER CONTENT */
 .footer-content {
     margin-top: 4em;
+    padding-top: 6em;
     background: rgb(1, 57, 93);
 }
 
@@ -218,6 +222,7 @@ body {
 .footer-anchor-wrap a {
     color:rgb(30, 179, 154);
     margin: 0.5em;
+    text-decoration: underline transparent;
 }
 
 .footer-anchor-wrap a:hover {
@@ -245,3 +250,8 @@ body {
 .footer-text-wrap img {
     max-width: 15%;
 }
+
+
+/* RESPONSIVE SETTINGS */
+
+@KEY
